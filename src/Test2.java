@@ -21,11 +21,21 @@ class Test2 {
 
             sum = sum + array.get(i);
 
+//           System.out.println("\nSum");
+//            for (int j = 0; j <array.size() ; j++) {
+//                if (i != array.size() -1 )
+//                    System.out.println(array.get(i) + " +");
+//
+//                else
+//
+//                    System.out.println(array.get(i) + " = " + sum);
+//            }
+        }
             return sum;
 
         }
 
-    }
+
 
     public static void smallest(ArrayList<Integer> array) {
 
