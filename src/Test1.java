@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 class Test1 {
 
-    public static List<Integer> addToArray() {
+    public static ArrayList<Integer> addToArray() {
 
         Scanner scanner = new Scanner(System.in);
        ArrayList<Integer> array = new ArrayList<>();

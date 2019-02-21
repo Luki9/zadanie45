@@ -9,7 +9,7 @@ class Main {
 
         ArrayList<Integer> array = new ArrayList<Integer>();
 
-        
+
     }
 
 

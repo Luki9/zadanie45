@@ -4,7 +4,7 @@ import java.util.List;
 class Test2 {
 
 
-    public static void printReversed(List<Integer> array) {
+    public static void printReversed(ArrayList<Integer> array) {
 
         for (int i = array.size() - 1; i >= 0; i--) {
 
@@ -27,7 +27,7 @@ class Test2 {
 
     }
 
-    public static void smallest(List<Integer> array) {
+    public static void smallest(ArrayList<Integer> array) {
 
         if (array == null || array.size() == 0) throw new NullPointerException();
         int min = array.get(0);
@@ -40,7 +40,7 @@ class Test2 {
 
     }
 
-    public static void biggeest(List<Integer> array) {
+    public static void biggeest(ArrayList<Integer> array) {
         if (array == null || array.size() == 0) throw new NullPointerException();
 
         int max = array.get(0);
