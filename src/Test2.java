@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 class Test2 {
@@ -12,7 +13,7 @@ class Test2 {
         }
     }
 
-    public static int sum(List<Integer> array) {
+    public static int sum(ArrayList<Integer> array) {
         if (array == null || array.size() == 0) throw new NullPointerException();
 
         int sum = 0;
@@ -26,29 +27,29 @@ class Test2 {
 
     }
 
-        public static void smallest(List<Integer> array) {
+    public static void smallest(List<Integer> array) {
 
-            if (array == null || array.size() == 0) throw new NullPointerException();
-            int min = array.get(0);
-            for (int i = 0; i < array.size(); i++) {
-                if (array.get(i) < min)
-                    min = array.get(i);
-
-            }
-            System.out.println("Smallest elemet");
+        if (array == null || array.size() == 0) throw new NullPointerException();
+        int min = array.get(0);
+        for (int i = 0; i < array.size(); i++) {
+            if (array.get(i) < min)
+                min = array.get(i);
 
         }
+        System.out.println("Smallest elemet");
 
-        public static void biggeest(List<Integer> array){
-        if (array ==null || array.size() == 0 ) throw new NullPointerException();
+    }
+
+    public static void biggeest(List<Integer> array) {
+        if (array == null || array.size() == 0) throw new NullPointerException();
 
         int max = array.get(0);
-            for (int i = 0; i <array.size() ; i++) {
-                if (array.get(i) > max)
-                    max = array.get(i);
-            }
-            System.out.println("Biggest element");
-            }
+        for (int i = 0; i < array.size(); i++) {
+            if (array.get(i) > max)
+                max = array.get(i);
         }
+        System.out.println("Biggest element");
+    }
+}
 
 

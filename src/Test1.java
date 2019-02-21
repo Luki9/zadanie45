@@ -8,7 +8,7 @@ class Test1 {
     public static List<Integer> addToArray() {
 
         Scanner scanner = new Scanner(System.in);
-        List<Integer> array = new LinkedList<Integer>();
+       ArrayList<Integer> array = new ArrayList<>();
         int lab = 0;
 
         do {
